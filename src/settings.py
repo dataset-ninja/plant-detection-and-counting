@@ -13,8 +13,10 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = None
-PROJECT_NAME_FULL: str = None
+PROJECT_NAME: str = "Plant Detection and Counting"
+PROJECT_NAME_FULL: str = (
+    "Plant detection and counting from high-resolution RGB images acquired from UAVs"
+)
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
 ##################################
