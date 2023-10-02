@@ -26,8 +26,8 @@ LICENSE: License = License.CC_BY_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agricultural()]
 CATEGORY: Category = Category.Biology(extra=Category.Drones())
 
-CV_TASKS: List[CVTask] = CVTask.ObjectDetection()
-ANNOTATION_TYPES: List[AnnotationType] = AnnotationType.ObjectDetection()
+CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
+ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
 
 RELEASE_DATE: Optional[str] = "2021-06-01"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
