@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "Plant Detection and Counting"
 PROJECT_NAME_FULL: str = (
-    "Plant detection and counting from high-resolution RGB images acquired from UAVs"
+    "Plant Detection and Counting from High-resolution Rgb Images Acquired from UAVs"
 )
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
@@ -73,10 +73,10 @@ AUTHORS: Optional[List[str]] = [
 ]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
-    "INRAe, Avignon, France",
-    "Arvalis - Institut du végétal, Avignon, France",
-    "ITB - Institut Technique de la Betterave, Paris, France",
-    "Hiphen, 22b Rue Charrue, Avignon, France",
+    "INRAe, France",
+    "Arvalis, France",
+    "ITB, France",
+    "Hiphen, France",
 ]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
     "https://www.inrae.fr/en",
