@@ -17,7 +17,7 @@ PROJECT_NAME: str = "Plant Detection and Counting"
 PROJECT_NAME_FULL: str = (
     "Plant Detection and Counting from High-resolution Rgb Images Acquired from UAVs"
 )
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
