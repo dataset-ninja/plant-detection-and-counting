@@ -75,10 +75,7 @@ AUTHORS: Optional[List[str]] = [
 ]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
-    "INRAe, France",
-    "Arvalis, France",
-    "ITB, France",
-    "Hiphen, France",
+    "INRAe, Arvalis, ITB and Hiphen (all - France)",
 ]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
     "https://www.inrae.fr/en",
