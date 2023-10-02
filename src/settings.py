@@ -24,7 +24,9 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.CC_BY_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agricultural()]
-CATEGORY: Category = Category.Biology(extra=Category.Drones())
+CATEGORY: Category = Category.Agriculture(
+    extra=[Category.Biology(), Category.Aerial(), Category.Drones()]
+)
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
