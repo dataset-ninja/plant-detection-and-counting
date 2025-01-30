@@ -1,6 +1,6 @@
 Dataset **Plant Detection and Counting** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/e5sb87l8vhirvv5xazvbd/plant-detection-and-counting-DatasetNinja.tar?rlkey=bk5z6bfn62yi82x9m9mlv67zt&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzIzMzJfUGxhbnQgRGV0ZWN0aW9uIGFuZCBDb3VudGluZy9wbGFudC1kZXRlY3Rpb24tYW5kLWNvdW50aW5nLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogIm1CRGJPK3hGUmF1YmhwWlpHZ28zRldPUXdUb204K0x2WitzREdVQTNYZmc9In0=)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
